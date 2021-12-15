@@ -1,0 +1,29 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="GUIS-IJ:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/GUIS_IJ_jar</output-path>
+    <root id="archive" name="GUIS-IJ.jar">
+      <element id="module-output" name="GUIS-IJ" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/javafx-swt.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/javafx.web.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/javafx.base.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/javafx.fxml.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/javafx.media.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/javafx.swing.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/javafx.controls.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/javafx.graphics.jar" path-in-jar="/" />
+      <element id="file-copy" path="$PROJECT_DIR$/lib/libdecora_sse.dylib" />
+      <element id="file-copy" path="$PROJECT_DIR$/lib/libfxplugins.dylib" />
+      <element id="file-copy" path="$PROJECT_DIR$/lib/libglass.dylib" />
+      <element id="file-copy" path="$PROJECT_DIR$/lib/libglib-lite.dylib" />
+      <element id="file-copy" path="$PROJECT_DIR$/lib/libgstreamer-lite.dylib" />
+      <element id="file-copy" path="$PROJECT_DIR$/lib/libjavafx_font.dylib" />
+      <element id="file-copy" path="$PROJECT_DIR$/lib/libjavafx_iio.dylib" />
+      <element id="file-copy" path="$PROJECT_DIR$/lib/libjfxmedia_avf.dylib" />
+      <element id="file-copy" path="$PROJECT_DIR$/lib/libjfxmedia.dylib" />
+      <element id="file-copy" path="$PROJECT_DIR$/lib/libjfxwebkit.dylib" />
+      <element id="file-copy" path="$PROJECT_DIR$/lib/libprism_common.dylib" />
+      <element id="file-copy" path="$PROJECT_DIR$/lib/libprism_es2.dylib" />
+      <element id="file-copy" path="$PROJECT_DIR$/lib/libprism_sw.dylib" />
+    </root>
+  </artifact>
+</component>

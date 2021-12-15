@@ -1,0 +1,99 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.pane{
+	-fx-background-color: transparent;
+	-fx-background-radius: 10px;
+	
+}
+.logos{
+	-fx-background-color: #333333;
+	-fx-background-radius: 10px 0px 0px 10px;
+}
+
+.content{
+	-fx-background-radius: 0px 10px 10px 0px;
+	-fx-background-color: #FBFCFC;
+	
+}
+
+.buttonsw{
+	-fx-background-color: transparent;
+
+}
+
+#minimize:hover{
+	-fx-background-color: #A6ACAF;
+}
+#minimize:pressed{
+	 -fx-scale-y: 0.9;
+     -fx-scale-x: 0.9;
+     -fx-background-color: #626567;
+}
+
+#close:hover{
+	-fx-background-color: #E74C3C;
+}
+#close:pressed{
+	 -fx-scale-y: 0.9;
+     -fx-scale-x: 0.9;
+     -fx-background-color: #943126;
+}
+
+.btns{
+	-fx-background-color: #1E88E5;
+    -fx-text-fill: #ffffff;
+    -fx-background-radius: 10px;
+}
+.btns:pressed{
+	-fx-scale-y: 0.9;
+    -fx-scale-x: 0.9;
+}
+
+#iniciar:hover{
+	-fx-background-color: #58D68D;
+}
+#iniciar:pressed{
+	-fx-background-color: #239B56;
+}
+
+#detener:hover{
+	-fx-background-color: #F44336;
+}
+#detener:pressed{
+	-fx-background-color: #C62828;
+}
+
+
+#puerto:hover{
+	-fx-background-color: #FDD835;
+}
+#puerto:pressed{
+	-fx-background-color: #F57F17;
+}
+
+#estado:hover{
+	-fx-background-color: #64B5F6;
+}
+#estado:pressed{
+	-fx-background-color: #1565C0;
+}
+
+.console{
+    -fx-background-radius: 10px;
+	-fx-background-color: #333333;
+	-fx-highlight-fill: transparent;
+	-fx-highlight-text-fill: #ffffff;
+    -fx-text-fill: #ffffff;
+}
+.text-area .content {
+    -fx-background-color: #333333 ;
+    -fx-background-radius: 0px;
+}
+.text-area .scroll-bar:vertical {
+    -fx-pref-width: 1;
+    -fx-opacity: 0;
+}
+.text-area .scroll-bar:horizontal {
+    -fx-pref-height: 1;
+    -fx-opacity: 0;
+}
