@@ -12,16 +12,15 @@ import java.io.InputStreamReader;
 import java.net.InetSocketAddress;
 import java.net.URL;
 import java.net.URLConnection;
+import java.util.Optional;
+
 import com.sun.net.httpserver.*;
 
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.control.Alert;
+import javafx.scene.control.*;
 import javafx.scene.control.Alert.AlertType;
-import javafx.scene.control.Button;
-import javafx.scene.control.TextArea;
-import javafx.scene.control.TextInputDialog;
 import javafx.stage.Stage;
 
 
@@ -58,8 +57,16 @@ public class ServerController {
 	
 	@FXML
     void exit(ActionEvent event) {
-		System.exit(0);
-    }
+		Alert alert = new Alert(AlertType.CONFIRMATION);
+		alert.setTitle("Confirmar Salida");
+		alert.setHeaderText("Estas saliendo de la aplicación");
+		alert.setContentText("¿Deseas continuar?");
+
+		Optional<ButtonType> result = alert.showAndWait();
+		if (result.get() == ButtonType.OK){
+			System.exit(0);
+		}
+	}
 
     @FXML
     void minimize(ActionEvent event) {
